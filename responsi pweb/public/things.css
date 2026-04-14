@@ -1,0 +1,74 @@
+body {
+  background: #f0f0f0;
+  border-radius: 16px;
+  text-align: center;
+  font-weight: bold;
+  background: url('huh/fring.png');
+  background-position: center;
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile {
+   max-width: 800px;   
+  margin: auto;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-bottom: 1px;
+   border: 3px solid #000000;
+}
+
+.Title {
+   color: rgb(238, 238, 238);
+   color: white;
+  -webkit-text-stroke: 1px rgb(11, 5, 85); 
+}
+
+.box-text {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 3px solid #000000;
+  padding: 5px 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.link-btn {
+  display:  inline-block;
+  width: 100%;
+   border: 3px solid #d4d4d4;
+  padding: 12px;
+  margin: 16px 0;
+  background: #5a619e;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.link-btn:hover {
+  background: #17121f;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+     display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+  }
+}
+
+.link-btn i {
+  font-size: 25px; 
+  margin-right: 10px;
+}
+
+.result {
+  color: rgb(255, 255, 255);
+}

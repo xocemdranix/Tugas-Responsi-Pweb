@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Persona Finder</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="things.css">
+  <link rel="icon" href="favicon2.ico">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Finder Form -->
+    <div class="card">
+      <h1><span class="Title">Digital Persona Finder</span></h1>
+      <input type="text" id="nama" placeholder="Masukkan Nama">
+      <input type="text" id="hobi" placeholder="Hobi Utama">
+      <input type="number" id="angka" placeholder="Angka Keberuntungan (1-10)" min="1" max="10">
+      <button onclick="generatePersona()">Temukan Persona</button>
+      <div id="hasil" class="result">Persona kamu akan muncul di sini</div>
+    </div>
+
+    <!-- Profile Linktree -->
+    <div class="card profile">
+      <img src="huh\waltuh.png" alt="Profile">
+      <h2><span class="box-text">Walter Hartwell White</span></h2>
+
+    <a href="https://github.com/xocemdranix/Tugas-Responsi-Pweb" class="link-btn">
+    <i class="fab fa-github"></i>GitHub</a>
+    <a href="https://en.wikipedia.org/wiki/Walter_White_(Breaking_Bad)" class="link-btn">
+    <i class="fas fa-globe"></i> Portfolio</a>
+    <a href="https://id.linkedin.com/in/walter-white-9b64a228b" class="link-btn">
+    <i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a href="https://www.instagram.com/breaking.bad_heisenberg/" class="link-btn">
+    <i class="fab fa-instagram"></i> Instagram</a>
+    </div>
+
+  </div>
+
+  <script src="working.js"></script>
+</body>
+</html>
